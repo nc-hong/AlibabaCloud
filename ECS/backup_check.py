@@ -36,7 +36,7 @@ MASTER_ACCESS_KEY_SECRET = os.getenv("MASTER_ACCESS_KEY_SECRET", "YOUR_MASTER_AK
 # Regions to audit (same account). Add/remove as needed or override via CLI.
 REGIONS = [
     "cn-hangzhou",
-    "cn-shanghai",
+    "cn-hongkong",
 ]
 
 # Default lookback hours (can be overridden via CLI)
