@@ -13,7 +13,11 @@ abc.py — Alibaba Cloud ECS snapshot audit (no STS)
         - attached_instance_ids (list of all attached instance IDs)
         - attached_instance_names (list of all attached instance names)
 """
-
+#############
+#$env:MASTER_ACCESS_KEY_ID="XXXX"
+#$env:MASTER_ACCESS_KEY_SECRET="yyyyyyyyyyyyyyyyy"
+#$env:LOOKBACK_HOURS="24"
+############
 import os
 import json
 import datetime
